@@ -1,0 +1,81 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2570011765" file="C:\Users\bsender\OneDrive - Boston University\BU\Projects\018 Theia Directory Management\Code\TDM_App\TDM_App.prj" location="C:\Users\bsender\OneDrive - Boston University\BU\Projects\018 Theia Directory Management\Code\TDM_App" name="TDM_App" target="target.mlapps" target-name="Package App">
+    <param.appname>TDM_App</param.appname>
+    <param.authnamewatermark>Ben Senderling</param.authnamewatermark>
+    <param.email>bsender@bu.edu</param.email>
+    <param.company>Boston University</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>This app helps manage directories used with Theia Markerless.</param.summary>
+    <param.description>The app helps manage directories of video files recorded through Qualisys QTM and processed through Theia Markerless. It helps sort videos into Theia-specific folder heriarchies and distributes preferences and calibration files to those folders. This is in preparation of processing the video files through Theia Markerless.</param.description>
+    <param.screenshot>C:\Users\bsender\AppData\Local\Temp\tp2b7d371e_beaa_424f_b93d_b598a327faae.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>6a52dcd3-3138-4125-8f73-ffade4aeb565</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\TDM_App.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\bsender\OneDrive - Boston University\BU\Projects\018 Theia Directory Management\Code" name="TDM_App" optional="false">C:\Users\bsender\OneDrive - Boston University\BU\Projects\018 Theia Directory Management\Code\TDM_App</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2021b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
